@@ -1,4 +1,4 @@
-Clear-Host # Clear PowerShell banner
+﻿Clear-Host # Clear PowerShell banner
 
 # Configuration
 $profileUrl = 'https://raw.githubusercontent.com/koresent/pwsh-profile/main/profile.ps1'
@@ -311,8 +311,6 @@ Set-PsFzfOption -PSReadlineChordProvider 'Ctrl+t' `
                 -PSReadlineChordReverseHistory 'Ctrl+r' `
                 -PSReadlineChordSetLocation 'Alt+c' `
                 -PSReadlineChordReverseHistoryArgs 'Alt+a'
-Set-PsFzfOption -TabExpansion
-Set-PSReadLineKeyHandler -Key Tab -ScriptBlock { Invoke-FzfTabCompletion }
 
 # Prompt
 function prompt {

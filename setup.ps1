@@ -1,4 +1,4 @@
-# Configuration
+﻿# Configuration
 $profileUrl = 'https://raw.githubusercontent.com/koresent/pwsh-profile/main/profile.ps1'
 $checkUrl = ([System.Uri]$profileUrl).Host
 $profilePath = $PROFILE.AllUsersAllHosts
